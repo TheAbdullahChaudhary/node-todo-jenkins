@@ -11,7 +11,7 @@ pipeline {
         stage("Checkout Code") {
             steps {
                 // Checkout the latest code from the repository
-                git url: "https://github.com/TheAbdullahChaudhary/node-todo-jenkins.git", branch: "master"
+                git url: "https://github.com/TheAbdullahChaudhary/node-todo-jenkins.git", branch: "main"
             }
         }
 
